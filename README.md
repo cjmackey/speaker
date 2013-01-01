@@ -18,7 +18,8 @@ Features that would be cool in the future:
 *   Better handling of weirdnesses of the output from pdftotext, such as
     the typographic ligatures that LaTeX uses (eg, "fi" gets combined
     into one unicode character and it confuses the text to speech
-    sometimes)
+    sometimes).  There's also the issue of, for example, page breaks
+    breaking the flow of text as well as the problem of page numbers.
 *   Making sound-playing more cross-platform and remove the mplayer
     dependency, though I don't know what libraries to use for ruby.
 *   Making the mp3 files not sit around after ctrl-c?
